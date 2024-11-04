@@ -1,0 +1,21 @@
+{
+    "name": "njoro/checkoutsystem",
+    "description": "a simple checkoutpage for m-pesa payments",
+    "type": "library",
+    "version": "0.1.0",
+    "autoload": {
+        "psr-4": {
+            "Njoro\\Checkoutsystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nduta",
+            "email": "142427559+Nancy-nduta@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "kabangi/mpesa": "^3.0"
+    }
+}

@@ -1,0 +1,64 @@
+{
+    "packages": [
+        {
+            "name": "kabangi/mpesa",
+            "version": "v3.0.3",
+            "version_normalized": "3.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kabangi/mpesa.git",
+                "reference": "d6d476afe79c44b4b97d68ed3633545c6e334cbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kabangi/mpesa/zipball/d6d476afe79c44b4b97d68ed3633545c6e334cbc",
+                "reference": "d6d476afe79c44b4b97d68ed3633545c6e334cbc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "jesseschalken/autoload-generator": "^0.2.3",
+                "mockery/mockery": "dev-master",
+                "phpunit/phpunit": "~5.7|~6.2"
+            },
+            "time": "2018-03-28T17:10:32+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Kabangi\\Mpesa\\": "src/Mpesa/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SmoDav",
+                    "email": "smodavprivate@gmail.com"
+                },
+                {
+                    "name": "Kabangi",
+                    "email": "kabangijulius@gmail.com"
+                }
+            ],
+            "description": "M-Pesa API implementation",
+            "keywords": [
+                "api",
+                "mpesa",
+                "safaricom",
+                "transactions"
+            ],
+            "support": {
+                "issues": "https://github.com/Kabangi/mpesa/issues",
+                "source": "https://github.com/Kabangi/mpesa/tree/master"
+            },
+            "install-path": "../kabangi/mpesa"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
